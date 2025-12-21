@@ -1,3 +1,6 @@
+import { FaLinkedin, FaFacebookF, FaEnvelope } from 'react-icons/fa';
+import { BsTwitterX } from "react-icons/bs";
+
 export default function Footer() {
   return (
     <footer className="mt-12 bg-black text-white">
@@ -39,6 +42,32 @@ export default function Footer() {
             <li><a className="link link-hover">Join Us</a></li>
           </ul>
         </div>
+
+        <div>
+          <h4 className="font-semibold mb-3">Social Links</h4>
+          <ul className="space-y-2 text-sm opacity-80">
+            <li className="flex items-center gap-2">
+              <BsTwitterX size={20} className="text-[#ffffff]" />
+              @CS — Ticket System
+            </li>
+            <li className="flex items-center gap-2">
+              <FaLinkedin size={20} className="text-[#ffffff]" />
+              @CS — Ticket System
+            </li>
+            <li className="flex items-center gap-2">
+              <FaFacebookF size={20} className="text-[#ffffff]" />
+              @CS — Ticket System
+            </li>
+            <li className="flex items-center gap-2">
+              <FaEnvelope size={20} className="text-[#ffffff]" />
+              support@cst.com
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-gray-700 text-center text-sm py-4 container mx-auto px-4">
+        © {new Date().getFullYear()} CS — Ticket System. All rights reserved.
       </div>
     </footer>
   )
