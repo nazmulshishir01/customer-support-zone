@@ -45,21 +45,29 @@ export default function Footer() {
 
         <div>
           <h4 className="font-semibold mb-3">Social Links</h4>
-          <ul className="space-y-2 text-sm opacity-80">
-            <li className="flex items-center gap-2">
-              <BsTwitterX size={20} className="text-[#ffffff]" />
+          <ul className="space-y-3 text-sm opacity-80">
+            <li className="flex items-center gap-3">
+              <span className="w-5 h-5 rounded-full bg-white flex items-center justify-center shrink-0">
+                <BsTwitterX size={14} className="text-black" />
+              </span>
               @CS — Ticket System
             </li>
-            <li className="flex items-center gap-2">
-              <FaLinkedin size={20} className="text-[#ffffff]" />
+            <li className="flex items-center gap-3">
+              <span className="w-5 h-5 rounded-full bg-white flex items-center justify-center shrink-0">
+                <FaLinkedin size={14} className="text-black" />
+              </span>
               @CS — Ticket System
             </li>
-            <li className="flex items-center gap-2">
-              <FaFacebookF size={20} className="text-[#ffffff]" />
+            <li className="flex items-center gap-3">
+              <span className="w-5 h-5 rounded-full bg-white flex items-center justify-center shrink-0">
+                <FaFacebookF size={14} className="text-black" />
+              </span>
               @CS — Ticket System
             </li>
-            <li className="flex items-center gap-2">
-              <FaEnvelope size={20} className="text-[#ffffff]" />
+            <li className="flex items-center gap-3">
+              <span className="w-5 h-5 rounded-full bg-white flex items-center justify-center shrink-0">
+                <FaEnvelope size={14} className="text-black" />
+              </span>
               support@cst.com
             </li>
           </ul>
