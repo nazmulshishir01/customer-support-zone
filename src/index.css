@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+  --color-low-priority: #02a53b;
+  --color-medium-priority: #febb0c;
+  --color-high-priority: #f83044;
+}
+
+:root,
+[data-theme="csTheme"] {
+  --p: #7c3aed; 
+  --s: #22c55e; 
+  --a: #6366f1; 
+  --n: #1f2937; 
+  --b1: #ffffff; 
+  --in: #38bdf8; 
+  --su: #b9f8cf; 
+  --wa: #f8f3b9; 
+  --er: #ef4444; 
+}
+
+
+html,
+body,
+#root {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
